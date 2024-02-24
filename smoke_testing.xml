@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Suite">
+	<listeners>
+		<listener class-name="com.streetlink.reports.Listeners"></listener>
+		
+	</listeners>
+	<test name="Execute Smoke test ">	
+		<classes>
+			<class name="com.streetlink.tests.MemberOfPublicTest" />
+			<class name="com.streetlink.tests.MemberOfPublicTestWithoutConsent" />
+			<class name= "com.streetlink.tests.SelfReferralAlertTest"/>
+			
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->	
